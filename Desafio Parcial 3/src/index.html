@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Foco | aluguel de Carros</title>
+  </head>
+  <body>
+    <!--!------------------------ Container Pai  ------------------------  -->
+    <section class="container">
+      <!--? ------------------------ Imagem de Fundo (Background) ------------------------   -->
+
+      <img src="images/background.png" alt="Imagem de Fundo" id="background" />
+
+      <!--? ------------------------ Fim Imagem de Fundo (Background) ------------------------   -->
+
+      <!-- ------------------------ Logo Foco  ------------------------   -->
+
+      <img src="images/logo.foco.png" alt="logo-foco" class="logo" />
+
+      <!-- ------------------------ Fim Logo Foco  ------------------------   -->
+
+      <!--? ------------------------ Container Filho  ------------------------   -->
+
+      <div class="container-midle-child">
+
+      <!-------------------------- Seleções de Dados -------------------------->
+
+        <h1>Adicione os seguintes dados do Novo Produto</h1>
+        <h2>Nome</h2>
+        <input type="text" id="name" />
+        <h2>Preço</h2>
+        <input type="number" id="preco" />
+        <h2>Quantidade</h2>
+        <input type="number" id="quant" /> <br />
+
+      <!-------------------------- Fim das Seleções de Dados -------------------------->
+
+      <!-------------------------- Botões -------------------------->
+
+        <button id="Btn-Adicionar" onclick="add()">Adicionar</button> <br />
+
+        <button id="Calcular" onclick="somarPrecosTotal()">Calcular Preço</button>
+
+        <button id="Calcular" onclick="somarQuantidadeTotal()">Calcular Quantidade</button> <br>
+
+        <button id="Renomear" onclick="Rename()">Renomear Produto</button>
+
+        <button id="Btn-Consulta" onclick="consultar_Estoque()">
+          Consultar Estoque
+        </button>
+        
+      <!-------------------------- Fim do Botões -------------------------->
+
+      <!-------------------------- H2 Para Impressão dos resultados -------------------------->
+
+          <h2 id="dados"></h2>
+
+      <!-------------------------- Fim do H2 Para Impressão dos resultados -------------------------->
+          
+        </div>
+
+        <!--? ------------------------ Container Filho  ------------------------   -->
+
+    </section>
+    <!--!------------------------ Fim Container Pai  ------------------------  -->
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>

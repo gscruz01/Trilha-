@@ -1,0 +1,103 @@
+/**------------------------ Body ------------------------  */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+/*!------------------------ Imagem de Fundo (Background) ------------------------  */
+#background {
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  width: 1920px;
+  margin-top: 100px;
+  padding: 0;
+  border: 0;
+}
+/*!------------------------ Fim Imagem de Fundo (Background)  ------------------------  */
+
+/*?------------------------ Logo Foco  ------------------------  */
+.logo {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+/*?------------------------ Fim Logo Foco  ------------------------  */
+
+/**------------------------ Container Pai  ------------------------  */
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+/**------------------------ Fim Container Pai  ------------------------  */
+
+/*!------------------------ Container Filho  ------------------------  */
+.container-midle-child {
+  background-color: #d60000d5;
+  height: 850px;
+  width: 900px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 20px 1px rgb(0, 0, 0);
+  position: absolute;
+  top: 3%;
+  left: 25%;
+}
+/*!------------------------ Fim Container Filho  ------------------------  */
+
+/*?------------------------ Container Pai H1 ------------------------  */
+.container h1 {
+  font-size: 40px;
+  color: #ffa653;
+}
+/*?------------------------  Fim Container Pai H1  ------------------------  */
+
+/**------------------------ Container Filho H2 ------------------------  */
+.container-midle-child h2 {
+  font-size: 30px;
+}
+/**------------------------ Fim Container Filho H2 ------------------------  */
+
+/*!------------------------ H2 Para aparecer os dados inseridos e somados ------------------------  */
+#dados {
+  font-size: 20px;
+  background-color: #cc6300;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 11px #d60000bd;
+}
+/*!------------------------ Fim H2 Para aparecer os dados inseridos e somados ------------------------  */
+
+/*?------------------------ Input para receber os dados dos produtos ------------------------  */
+input {
+  height: 50px;
+  width: 500px;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #8686869a;
+  font-size: 23px;
+  padding: 0px 10px;
+  color: white;
+}
+/*?------------------------ Fim Input para receber os dados dos produtos ------------------------  */
+
+/**------------------------ Botões para executar as funções  ------------------------  */
+
+button {
+  height: 60px;
+  width: 200px;
+  margin: 0px 20px 0px 20px;
+  font-size: 18px;
+  border: 0px;
+  border-radius: 15px;
+  color: white;
+  background-color: #faa250;
+  margin: 10px;
+}
+button:hover {
+  background-color: #cc6300;
+  transition: 1s;
+}
+/**------------------------Fim Botões ------------------------  */
